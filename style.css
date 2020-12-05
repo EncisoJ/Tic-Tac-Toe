@@ -1,0 +1,102 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: fantasy;
+}
+
+
+html{
+    background-color: white;
+}
+
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    width: 13rem;
+    margin: 0 auto;
+}
+
+
+#player, #turn{
+    font-size: 3.0;;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.TicTacToe{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 142px);
+    grid-template-rows: repeat(3, 150px);
+    width: fit-content;
+    background-color:rgb(0, 0, 0);
+    border-radius: 90;
+}
+
+.square{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 4.0rem
+}
+
+
+.left{
+    border-left: none;
+}
+.top{
+    border-top: none;
+}
+.right{
+    border-right: none;
+}
+.bottom{
+    border-bottom: none;
+}
+
+.on{
+    cursor: pointer;
+}
+.off{
+    cursor: default;
+}
+
+.oMark{
+    color: blue;
+}
+
+.xMark{
+    color: red;
+    
+}
+p{
+    text-align: center;
+}
+
+.wins{
+    display: flex;
+    font-size: 2.00;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#reset{
+    border: none;
+    padding: 1.0;
+    border-radius: 20%;
+    height: 6;
+    width: 3rem;
+}
+#reset:active{
+    background: radial-gradient(border-box at 5px 5px, white, black);
+}
+#reset:enabled{
+    outline: none;
+}
+
+
+.winningMark{
+    border-radius: 25%
+}
