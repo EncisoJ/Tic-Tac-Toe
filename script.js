@@ -60,7 +60,6 @@ function checkWin(sign){
     let marks = 0;
     let winningMarks = [];
 
-    //Check for horizontal wins
     for(let row = 1; row < 4; row++){
 
         marks = 0;
@@ -84,7 +83,6 @@ function checkWin(sign){
         }
     }
 
-    //Check for vertical wins
     
     for(let column = 1; column < 4; column++){
         marks = 0;
@@ -107,7 +105,6 @@ function checkWin(sign){
         }
     }
 
-    //Check for diagonal wins
     winningMarks = [];
     marks = 0;
     for(let row = 1; row < 4; row++){
@@ -149,7 +146,6 @@ function checkWin(sign){
         }
     }
 
-    //check for ties
     let markedBox = 0;
     for(let i = 1; i < 4; i++){
         for(let l = 1; l < 4; l++){
