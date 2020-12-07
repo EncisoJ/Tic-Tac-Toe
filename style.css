@@ -5,6 +5,9 @@
     font-family: fantasy;
 }
 
+body div.TicTacToe div{
+    border: white solid 3px;
+}
 
 html{
     background-color: white;
@@ -33,6 +36,7 @@ header{
     width: fit-content;
     background-color:rgb(0, 0, 0);
     border-radius: 90;
+    border: white 3px solid;
 }
 
 .square{
